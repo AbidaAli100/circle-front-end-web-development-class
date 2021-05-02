@@ -1,3 +1,12 @@
 div p{
     background-color: chartreuse;
 }
+.second-div>p{
+    background-color: coral;
+}
+.second-div+p{
+    background-color: darkblue;
+}
+.second-div~p{
+    background-color: darkred;
+}
