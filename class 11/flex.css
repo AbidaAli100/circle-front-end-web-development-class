@@ -1,0 +1,15 @@
+
+.div-1{
+   
+    background-color: rgb(18, 99, 18) ;
+}
+.div-2{
+    background-color: coral;
+}
+.div-3{
+    background-color: rgb(51, 90, 12);
+    
+}
+.container > div{
+    flex-direction: column;
+}

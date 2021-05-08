@@ -16,3 +16,7 @@ p{
     float: right;
     background-color: coral;
 }
+.div-3{
+    background-color: rgb(51, 90, 12);
+    clear: both;
+}
