@@ -1,18 +1,25 @@
-
+.container {
+    background-color: darkgray;
+   width: 1600px;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.container > div {
+    flex-direction: column;
+    width: 200px;
+}
 .div-1{
    
     background-color: rgb(18, 99, 18) ;
-    float: right;
+   
 }
 .div-2{
     background-color: coral;
-    float: left;
+   
 }
 .div-3{
     background-color: rgb(51, 90, 12);
-    clear: both;
+   
     
-}
-.container div{
-    flex-direction: column;
 }
