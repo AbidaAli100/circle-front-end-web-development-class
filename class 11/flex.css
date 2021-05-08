@@ -1,13 +1,21 @@
 .container {
-    background-color: darkgray;
-   width: 1600px;
-    display: flex;
+   display: flex;
+   padding: 5px;
+   width: 600px;
+   background-color: darkkhaki;
+flex-direction: row;
     flex-wrap: wrap;
+ align-content: center;
+    
     
 }
 .container > div {
-    flex-direction: column;
-    width: 200px;
+    margin: 5px;
+    width: 150px;
+    justify-content: center;
+    background-color: darkturquoise;
+    
+    
 }
 .div-1{
    
@@ -19,7 +27,7 @@
    
 }
 .div-3{
-    background-color: rgb(51, 90, 12);
+    background-color: rgb(95, 180, 9);
    
     
 }
