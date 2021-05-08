@@ -2,14 +2,17 @@
 .div-1{
    
     background-color: rgb(18, 99, 18) ;
+    float: right;
 }
 .div-2{
     background-color: coral;
+    float: left;
 }
 .div-3{
     background-color: rgb(51, 90, 12);
+    clear: both;
     
 }
-.container > div{
+.container div{
     flex-direction: column;
 }
