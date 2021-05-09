@@ -9,22 +9,26 @@ div{
     /* border: 2px solid black; */
     width: 500px;
     height: 150px;
-    
+
 }
 div img{
      width: 150px;
+     height: 120px;
 }
 
 .image-1{
     float: left;
     width: 150px;
+    margin: 5px;
 }
 
 .para-1{
-    width: 600px ;
-    float: right;
-    
+    float: left;
+
 }
+/* h2, p{
+    margin: 0px; */
+
 .image-2{
     clear: both;
 }
