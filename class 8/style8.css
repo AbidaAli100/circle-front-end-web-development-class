@@ -1,22 +1,25 @@
-h1, h2, h3, h4{
-    font-family: 'Montserrat', sans-serif;
 
-    text-shadow: 2px 2px yellow;
+
+div{
+    /* border: 2px solid black; */
+    width: 500px;
+    height: 150px;
+    
 }
-p{
-    font-family: 'Roboto', sans-serif;
+div img{
+     width: 150px;
 }
 
-
-.div-1{
+.image-1{
     float: left;
-    background-color: rgb(18, 99, 18) ;
+    width: 150px;
 }
-.div-2{
+
+.para-1{
+    width: 600px ;
     float: right;
-    background-color: coral;
+    
 }
-.div-3{
-    background-color: rgb(51, 90, 12);
+.image-2{
     clear: both;
 }
