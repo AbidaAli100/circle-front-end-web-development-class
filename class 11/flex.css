@@ -2,21 +2,27 @@
    background-color: gray;
    padding: 10px;
    display:grid;
- grid-template-columns: 250px 200px 200px 350px;
- grid-column-gap: 50px;
- grid-row-gap: 50px;
+ grid-template-columns: 200px 200px 200px 200px;
+ /* grid-column-gap: 50px;
+ grid-row-gap: 30px; */
  height: 600px;
  align-content: center;
+ justify-content: center;
  
   
     
 }
 .flex-container > div {
-    margin: 5px;
+    border: 2px solid black;
+    /* margin: 5px; */
     height: 100px;
-    width: 200px;
+    width: auto;
     background-color: darkturquoise;
+   
+}
+.div-1{
+     grid-area: 1/ 2 / span 2 / span 2;
+   
     
-
 }
   
