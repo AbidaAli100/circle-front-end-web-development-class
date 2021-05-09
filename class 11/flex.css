@@ -1,33 +1,22 @@
-.container {
-   display: flex;
-   padding: 5px;
-   width: 600px;
-   background-color: darkkhaki;
-flex-direction: row;
-    flex-wrap: wrap;
+.flex-container {
+   background-color: gray;
+   padding: 10px;
+   display:grid;
+ grid-template-columns: 250px 200px 200px 350px;
+ grid-column-gap: 50px;
+ grid-row-gap: 50px;
+ height: 600px;
  align-content: center;
-    
+ 
+  
     
 }
-.container > div {
+.flex-container > div {
     margin: 5px;
-    width: 150px;
-    justify-content: center;
+    height: 100px;
+    width: 200px;
     background-color: darkturquoise;
     
-    
+
 }
-.div-1{
-   
-    background-color: rgb(18, 99, 18) ;
-   
-}
-.div-2{
-    background-color: coral;
-   
-}
-.div-3{
-    background-color: rgb(95, 180, 9);
-   
-    
-}
+  
