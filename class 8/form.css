@@ -1,0 +1,39 @@
+
+.wrapper{
+    height: 400px;
+    width: 400px;
+    border: 2px solid black;
+    margin: 20px;
+   padding: 5px;
+
+    
+}
+.sign-up a{
+    font-weight: bolder;
+    color: black;
+    margin: 20px;
+    float: right;
+    /* background-color: brown; */
+    display: block;
+
+
+
+}
+.login{
+    align-content: center;
+    /* background-color: cyan; */
+    /* float: left; */
+    margin: 55px;
+    padding: 30px;
+    margin-bottom: 10px;
+   
+}
+
+div.button{
+    clear: both;
+    background-color: yellow;
+    width: 200px;
+    margin-left: 150px;
+    display: inline-block;
+
+}

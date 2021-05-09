@@ -17,7 +17,7 @@
      /* margin: 5px; */
      height: 100px;
      width: auto;
-     /* background-color: darkturquoise; */
+     background-color: darkturquoise;
     
  }
  
@@ -27,7 +27,6 @@
      background-color: rgb(42, 165, 79);
  }
  
- @media screen  and (min-width : 768px) and (max-width 1020px  ) {
+ @media screen  and (min-width : 768px) and (max-width : 1024px) {
      .flex-container > div {
     background-color: crimson;
- }
