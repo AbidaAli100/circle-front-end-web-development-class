@@ -5,6 +5,9 @@
     border: 2px solid black;
     margin: 20px;
    padding: 5px;
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: column;
 
     
 }
@@ -12,28 +15,35 @@
     font-weight: bolder;
     color: black;
     margin: 20px;
-    float: right;
-    /* background-color: brown; */
-    display: block;
-
-
+    /* background-color: brown;  */
+     
 
 }
+.sign-up{
+    flex-grow: 2px;
+     align-self: flex-end;
+     margin-top: 10px;
+     margin-right: 10px;
+     width: 120px;
+}
+.form{
+    /* background-color: blueviolet; */
+    width: 120px;
+    align-self: center;
+}
+
 .login{
-    align-content: center;
+    align-self: center;
     /* background-color: cyan; */
-    /* float: left; */
-    margin: 55px;
-    padding: 30px;
-    margin-bottom: 10px;
+    
+   
    
 }
 
 div.button{
     clear: both;
-    background-color: yellow;
+    /* background-color: yellow; */
     width: 200px;
-    margin-left: 150px;
-    display: inline-block;
+    align-self: center;
 
 }
