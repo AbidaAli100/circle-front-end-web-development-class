@@ -28,6 +28,5 @@ button:focus{
 }
 
 button:active{
-    box-shadow: none;
-    color: rgb(219, 21, 21);
+    background-color: black;
 }
