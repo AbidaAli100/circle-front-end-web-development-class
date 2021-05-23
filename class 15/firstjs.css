@@ -23,6 +23,8 @@ button{
     transition: all 0.5s;
     margin-bottom: 1em;
 }
+
+
 button:focus{
     outline: none;
 }

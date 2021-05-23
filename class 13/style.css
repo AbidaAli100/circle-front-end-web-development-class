@@ -1,13 +1,22 @@
 body{
-   
     display: flex;
-    flex-direction: column;
-    background-color: rgb(165, 107, 31);
+    flex-direction: column; 
     justify-content: center;
     align-items: center;
     
 }
+.container{
+    background-color: #f8f8d2;
+    padding: 2em;
+    height: 550px;
+  
+    
+}
  h1{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-color: cyan;
-    margin: 3em;
+    
+ }
+ .submit{
+     margin-left: 320px;
+   
+ }
